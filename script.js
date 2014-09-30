@@ -42,11 +42,11 @@ function focusBlock(id) {
 	//$('#content').slideDown(100);
 	//$('#content').height(0.7*$(window).height());
 
-	setTimeout(function(){
+	/*setTimeout(function(){
 		$("#content").load(url, function() {
 			$("#content").slideDown(1000);
 		});
-	}, 600);
+	}, 600);*/
     $('#byline').animate({
     	'margin-top': 100,
     }, "slow");
