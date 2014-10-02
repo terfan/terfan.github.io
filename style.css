@@ -41,8 +41,11 @@ a {
 	font-weight: 900;
 	cursor: pointer;
     animation: fadeInUp .75s ease;
+    -webkit-animation: fadeInUp .75s ease;
     animation-delay: .25s;
+    -webkit-animation-delay: .25s;
     animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
 }
 
 #nav {
@@ -50,6 +53,12 @@ a {
     display: block;
 	text-align: center;
 	margin: 20px auto 0 auto;
+	animation: fadeInUp .75s ease;
+    -webkit-animation: fadeInUp .75s ease;
+    animation-delay: .8s;
+    -webkit-animation-delay: .8s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
 }
 
 #nav ul {
