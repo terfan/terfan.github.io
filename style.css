@@ -89,6 +89,10 @@ a {
 	width: 100%;	
 }
 
+#art {
+	width: 1600px;
+}
+
 form {
 	margin: 0 auto;
 	max-width: 439px;
