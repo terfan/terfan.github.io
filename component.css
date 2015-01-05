@@ -1,7 +1,40 @@
+.sub-content {
+	margin: 50px auto 100px auto;
+	width: 640px;
+	text-align: center;
+	display: none;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	height: 20px;
+	text-align: center;
+}
+
+#nav li {
+	display: inline-block;
+	float: center;
+	margin: 0 45px;
+	position: relative;
+}
+
+.nav-link {
+	text-align: center;
+	width: auto;
+	color: #555;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+/////////////////////////////
+
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 body {
 	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .noscroll {
@@ -10,7 +43,6 @@ body {
 
 .grid-wrap {
 	margin: 10px auto 0;
-	max-width: 1090px;
 	width: 1090px;
 	padding: 0;
 	-webkit-perspective: 1500px;
