@@ -1,63 +1,225 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<meta name="description" content="Teresa Fan's portfolio" />
 		<meta name="keywords" content="Teresa, Fan, DMD, UPenn, Penn, Programming, Art, Design, Portfolio"/>
 		<meta name="author" content="Teresa Fan"/>
-
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="component.css"/>
-		<link rel="shortcut icon" href="images/favicon.ico"/>
+		
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/portfolio.js"></script>
 
 		<title>Teresa Fan | Portfolio</title>
 	</head>
 
 	<body>
-		<ul id="nav">
-			<li>
-		    	<div id="traditional-link" class="nav-link" onclick="showContent('#traditional');">Traditional</div>
-		    </li>
-		    <li>
-		    	<div id="3d-link" class="nav-link" onclick="showContent('#3d');">3D Modeling</div>
-		    </li>
-		    <li>
-		    	<div id="photography-link" class="nav-link" onclick="showContent('#photography');">Photography</div>
-		    </li>
-		    <li>
-		    	<div id="design-link" class="nav-link" onclick="showContent('#design');">Design</div>
-		    </li>
-		</ul>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://teresafan.com"><span>Back to the Home Page</span></a>
+			</div>
 
-		<div class="sub-content" id="traditional">
-	    	<section class="grid3d vertical" id="grid3d">
+			<header class="codrops-header">
+				<h1 id="title">Portfolio <span>Art by Teresa Fan.</span></h1>
+				<nav class="sections">
+					<div class="sub-section" onclick="showContent($(this),'#Traditional');">Traditional</div>
+					<div class="sub-section" onclick="showContent($(this),'#3DModeling');">3D</div>
+					<div class="sub-section" onclick="showContent($(this),'#Photography');">Photography</div>
+					<div class="sub-section" onclick="showContent($(this),'#Design');">Design</div>
+				</nav>
+			</header>
+
+			<!-- TRADITIONAL -->
+			<section class="grid3d vertical" id="grid3d">
+				<div class="sub-content" id="Traditional">
 				<div class="grid-wrap">
 					<div class="grid">
-						<figure><img src="images/traditional/1.jpg" alt="img01"/></figure>
-						<figure><img src="images/traditional/2.jpg" alt="img05"/></figure>
-						<figure><img src="images/traditional/3.jpg" alt="img08"/></figure>
-						<figure><img src="images/traditional/4.jpg" alt="img02"/></figure>
-						<figure><img src="images/traditional/5.jpg" alt="img04"/></figure>
-						<figure><img src="images/traditional/6.jpg" alt="img03"/></figure>
-						<figure><img src="images/traditional/7.jpg" alt="img06"/></figure>
-						<figure><img src="images/traditional/8.jpg" alt="img07"/></figure>
+						<figure><div class="thumbnail" id="t1"></div></figure>
+						<figure><div class="thumbnail" id="t2"></div></figure>
+						<figure><div class="thumbnail" id="t3"></div></figure>
+						<figure><div class="thumbnail" id="t4"></div></figure>
+						<figure><div class="thumbnail" id="t5"></div></figure>
+						<figure><div class="thumbnail" id="t6"></div></figure>
+						<figure><div class="thumbnail" id="t7"></div></figure>
+						<figure><div class="thumbnail" id="t8"></div></figure>
+						<figure><div class="thumbnail" id="t9"></div></figure>
+						<figure><div class="thumbnail" id="t10"></div></figure>
+						<figure><div class="thumbnail" id="t11"></div></figure>
+						<figure><div class="thumbnail" id="t12"></div></figure>
+						<figure><div class="thumbnail" id="t13"></div></figure>
+						<figure><div class="thumbnail" id="t14"></div></figure>
+						<figure><div class="thumbnail" id="t15"></div></figure>
+						<figure><div class="thumbnail" id="t16"></div></figure>
+						<figure><div class="thumbnail" id="t17"></div></figure>
+						<figure><div class="thumbnail" id="t18"></div></figure>
+					</div>
+				</div><!-- /grid-wrap -->
+				<div class="content">
+					<div>
+						<div class="full-img"><img src="images/traditional/1.jpg" alt="img01"/></div>
+						<p class="info-text">2015. Oil on canvas. 30"x40".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/2.jpg" alt="img02"/></div>
+						<p class="info-text">Anouk, 2014. Graphite. 15 minutes.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/3.jpg" alt="img03"/></div>
+						<p class="info-text">Little Venice, 2014. Oil on canvas. 24"x30".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/4.jpg" alt="img04"/></div>
+						<p class="info-text">Self Portrait, 2013. Oil on canvas. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/5.jpg" alt="img05"/></div>
+						<p class="info-text">Life Drawing Spring 2013. Ink on watercolor paper.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/6.jpg" alt="img06"/></div>
+						<p class="info-text">Life Drawing Spring 2013. Charcoal. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/7.jpg" alt="img07"/></div>
+						<p class="info-text">Life Drawing Spring 2013. Charcoal and conte. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/8.jpg" alt="img08"/></div>
+						<p class="info-text">Life Drawing Spring 2013, Michelangelo master copy. Graphite.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/9.jpg" alt="img09"/></div>
+						<p class="info-text">Chinatown, 2012. Oil on canvas. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/10.jpg" alt="img10"/></div>
+						<p class="info-text">Some Nights, 2012. Oil on canvas. 24"x30".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/11.jpg" alt="img11"/></div>
+						<p class="info-text">2012. Chalk pastel. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/12.jpg" alt="img12"/></div>
+						<p class="info-text">Mother and Child, 2012. Oil on canvas. 16"x20".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/13.jpg" alt="img13"/></div>
+						<p class="info-text">2012. Oil on canvas. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/14.jpg" alt="img14"/></div>
+						<p class="info-text">The High Line, 2011. Oil on canvas. 22"x28".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/15.jpg" alt="img15"/></div>
+						<p class="info-text">2011. Oil on canvas. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/16.jpg" alt="img16"/></div>
+						<p class="info-text">Bird's Eye View, 2011. Graphite on watercolor paper. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/17.jpg" alt="img17"/></div>
+						<p class="info-text">Winter Self Portrait, 2011. Oil on canvas. 18"x24".</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/traditional/18.jpg" alt="img18"/></div>
+						<p class="info-text">Hands, 2011. Graphite. 18"x24".</p>
+					</div>
+					<span class="loading"></span>
+					<span class="icon close-content"></span>
+				</div>
+
+					<p class="credit">Animation concept inspired by <a href="http://tympanus.net/codrops/?p=18742" target="_blank">Codrops</a></p>
+				</div>
+
+
+				<!-- 3D -->
+				<div class="sub-content" id="3DModeling">
+				<div class="grid-wrap">
+					<div class="grid">
+						<figure><div class="thumbnail" id="m1"></div></figure>
+						<figure><div class="thumbnail" id="m2"></div></figure>
+						<figure><div class="thumbnail" id="m3"></div></figure>
+						<figure><div class="thumbnail" id="m4"></div></figure>
+						<figure><div class="thumbnail" id="m5"></div></figure>
+						<figure><div class="thumbnail" id="m6"></div></figure>
+					</div>
+				</div><!-- /grid-wrap -->
+				
+				<div class="content">
+					<div>
+						<div class="full-img"><img src="images/3dmodeling/1.png" alt="img01"/></div>
+						<p class="info-text">Advanced Modeling Spring 2014, Final Project.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/3dmodeling/2.png" alt="img02"/></div>
+						<p class="info-text">3D Modeling Fall 2013, Environment Project.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/3dmodeling/3.png" alt="img03"/></div>
+						<p class="info-text">3D Modeling Fall 2013, Final Project.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/3dmodeling/4.png" alt="img04"/></div>
+						<p class="info-text">Advanced Modeling Spring 2014.</p>
+						<p class="info-text">The assignment was to depict "opposites." The over-the-top frivolity of a brightly colored lollipop tree, something straight out of a child's imagination, contrasts with its stark environment. It is childhood fantasy vs. grim reality, privileged vs. destitute.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/3dmodeling/5.png" alt="img05"/></div>
+						<p class="info-text">3D Modeling Fall 2013, Character Project.</p>
+					</div>
+					<div>
+						<div class="full-img"><img src="images/3dmodeling/6.png" alt="img06"/></div>
+						<p class="info-text">Advanced Modeling Spring 2014.</p>
+						<p class="info-text">The assignment was to recreate a photograph. I happen to take a lot of photos of food, so I took on the challenge of modeling a fruit tart I had photographed.</p>
 					</div>
 				</div>
+
+					<p class="credit">Animation concept inspired by <a href="http://tympanus.net/codrops/?p=18742" target="_blank">Codrops</a></p>
+				</div>
+
+
+				<!-- PHOTO -->
+				<div class="sub-content" id="Photography">
+				<div class="grid-wrap">
+					<div class="grid">
+						<p>Coming soon (for now, check out my <a href="https://www.flickr.com/photos/terfan/" target="_blank">Flickr page</a>)</p>
+					</div>
+				</div><!-- /grid-wrap -->
+				<div class="content">
+				</div>
+				</div>
+
+
+				<!-- DESIGN -->
+				<div class="sub-content" id="Design">
+				<div class="grid-wrap">
+					<div class="grid">
+						<p>Coming soon</p>
+					</div>
+				</div><!-- /grid-wrap -->
+				<div class="content">
+				</div>
+				</div>
+
 			</section>
-		</div>
 
-		<div class="sub-content" id="3d">
-		</div>
+		</div><!-- /container -->
 
-		<div class="sub-content" id="photography">
-		</div>
-
-		<div class="sub-content" id="design">
-		</div>
-
+		<script src="js/classie.js"></script>
+		<script src="js/helper.js"></script>
+		<script src="js/grid3d.js"></script>
+		<script>
+			new grid3D( document.getElementById( 'grid3d' ) );
+		</script>
 	</body>
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/portfolio.js"></script>
-
 </html>
