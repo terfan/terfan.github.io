@@ -133,12 +133,17 @@ section {
 	font-size: 1.5em;
 }
 
-.sub-content {
-	display: none;
-}
-
 .credit {
 	font-size: .75em;
+	display: none;
+}
+/* temp */
+.des {
+	display:none;
+}
+/* temp */
+.photo {
+	display:none;
 }
 
 @media screen and (max-width: 25em) {
