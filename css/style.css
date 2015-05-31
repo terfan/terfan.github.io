@@ -104,13 +104,24 @@ form {
 	margin-top: 15px;
 	font-size: 0.9em;
 	color: #3a3a3a;
-	-moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #message {
 	height: 200px;
+}
+
+.icon {
+	height: 30px;
+	padding: 0 20px;
+	width: 30px;
+}
+
+.icon:hover {
+	-moz-filter: invert(40%);
+	-webkit-filter: invert(40%);
 }
 
 .button {
