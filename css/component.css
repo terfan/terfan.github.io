@@ -299,6 +299,22 @@ body {
 	background:url(../images/3dmodeling/thumbnails.jpg) 0 -1500px;
 }
 
+#d1 {
+	background:url(../images/design/thumbnails.jpg) 0 0px;
+}
+#d2 {
+	background:url(../images/design/thumbnails.jpg) 0 -300px;
+}
+#d3 {
+	background:url(../images/design/thumbnails.jpg) 0 -600px;
+}
+#d4 {
+	background:url(../images/design/thumbnails.jpg) 0 -900px;
+}
+#d5 {
+	background:url(../images/design/thumbnails.jpg) 0 -1200px;
+}
+
 .full-img,
 .info-text {
 	max-width: 800px;

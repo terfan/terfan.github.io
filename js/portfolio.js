@@ -13,7 +13,6 @@ function showContent(caller, id) {
             $('.credit').fadeIn('slow').css("display","inline");
             // temp
             $('.photo').css("display","none");
-            $('.des').css("display","none");
         }, 500);
     }
     else if(id == '#3DModeling') {
@@ -24,21 +23,19 @@ function showContent(caller, id) {
             $('.credit').fadeIn('slow').css("display","inline");
             // temp
             $('.photo').css("display","none");
-            $('.des').css("display","none");
         }, 500);
     }
     else if(id == '#Photography') {
         $('#title').html(id.substring(1) + "<span>Click the images for full view and more information.</span>");
         setTimeout(function(){
             $('.photo').fadeIn('slow').css("display","inline-block");
-            // temp
-            $('.des').css("display","none");
         }, 500);
     }
     else {
         $('#title').html(id.substring(1) + "<span>Click the images for full view and more information.</span>");
         setTimeout(function(){
-            $('.des').fadeIn('slow').css("display","inline-block");
+            $('figure.des').fadeIn('slow').css("display","inline-block");
+            $('.credit').fadeIn('slow').css("display","inline");
             // temp
             $('.photo').css("display","none");
         }, 500);
