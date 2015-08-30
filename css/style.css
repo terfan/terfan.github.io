@@ -120,8 +120,7 @@ form {
 }
 
 .icon:hover {
-	-moz-filter: invert(40%);
-	-webkit-filter: invert(40%);
+	opacity: 0.75;
 }
 
 .button {
@@ -147,6 +146,19 @@ form {
 .button:hover {
 	background-color: #ff5a5a;
 	border-color: #ff5a5a;
+}
+
+li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+h3 {
+	margin-bottom: 0.5em;
+}
+
+.project-desc {
+
 }
 
 @-webkit-keyframes fadeInUp {
